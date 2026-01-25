@@ -365,6 +365,73 @@ body {
 }
 
 /* =====================================================
+   INVESTIMENTO
+===================================================== */
+
+.investimento {
+  text-align: center;
+}
+
+.precos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  margin: 40px 0;
+}
+
+.preco-box {
+  background: #F1FAEE;
+  padding: 30px;
+  border-radius: 16px;
+}
+
+.preco-box h3 {
+  margin-bottom: 10px;
+  color: #1D3557;
+}
+
+.preco-box .valor {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #E63946;
+}
+
+.preco-box span {
+  color: #457B9D;
+}
+
+.preco-box.destaque {
+  border: 2px solid #E63946;
+}
+
+/* decisão */
+
+.decisao {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 40px;
+  margin-top: 50px;
+}
+
+.decisao-box {
+  background: rgba(241, 250, 238, 0.8);
+  padding: 30px;
+  border-radius: 16px;
+  text-align: left;
+}
+
+.decisao-box h4 {
+  margin-bottom: 15px;
+  color: #1D3557;
+}
+
+.pix-img {
+  display: block;
+  margin: 20px auto 0;
+  max-width: 180px;
+}
+
+/* =====================================================
    CTA
 ===================================================== */
 
