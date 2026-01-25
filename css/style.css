@@ -156,27 +156,27 @@ body {
   position: absolute;
   bottom: 100px;
   left: 80px;
-  width: 500px;
+  width: 350px;
 }
 
 .scene-bus {
   position: absolute;
-  bottom: 40px;
+  bottom: 50px;
   left: 40%;
-  width: 350px;
+  width: 300px;
 }
 
 .scene-clock {
   position: absolute;
-  bottom: 70px;
+  bottom: 90px;
   right: 80px;
-  width: 700px;
+  width: 500px;
 }
 
 .scene-tree {
   position: absolute;
   bottom: 120px;
-  width: 400px;
+  width: 300px;
 }
 
 .tree-left {
